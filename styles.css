@@ -1,0 +1,106 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0a1a2f;
+  color: #ffffff;
+}
+header {
+  background-color: #081524;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.logo img {
+  height: 50px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav a:hover {
+  color: #00bfff;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #001f3f, #003366);
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.btn {
+  background-color: #00bfff;
+  color: #0a1a2f;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.btn:hover {
+  background-color: #009acd;
+}
+section {
+  padding: 3rem 2rem;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #00bfff;
+}
+.service {
+  background-color: #112233;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.2);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+input, textarea {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #223344;
+  color: #ffffff;
+}
+button[type="submit"] {
+  background-color: #00bfff;
+  color: #0a1a2f;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+  background-color: #009acd;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #081524;
+  color: #cccccc;
+}
